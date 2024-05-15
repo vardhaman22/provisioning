@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Must also set the corresponding versions in Chart.yaml and values.yaml
-CAPI_VERSION=v1.6.4
+CAPI_VERSION=v1.7.3
 
 # Script requires yq >= 4.x
 if ! [ -x "$(command -v yq)" ]; then
